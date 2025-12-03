@@ -1,13 +1,29 @@
-IoT based Smart Cradle for Baby Monitoring system.
-Features:
-  ~Monitor baby cries and alert the parent using the webapp.
-  ~Detect wetness and alert the parent.
-  ~In case of crying detected the cradle will swing itself
-  ~Monitor the baby with live broadcast
+# IoT Based Smart Cradle System
 
-Components used:
-  ~Ardrino Uno
-  ~Sound Sensor
-  ~Moisture Sensor
-  ~Servo Motor
-  ~NodeMCU ESP8266 (as a Web server)
+A smart, IoT-enabled cradle for monitoring infants using motion and sound sensors.  
+Features automated rocking, safety alerts, and real-time monitoring.
+
+---
+
+## 🚀 Features
+- Motion detection  
+- Sound detection (baby crying)  
+- Automatic cradle rocking  
+- IoT connectivity  
+- Real-time notifications  
+- Safety monitoring
+
+---
+
+## 🛠 Tech Stack
+- **Hardware:** Arduino / ESP module  
+- **Sensors:** Motion sensor, sound sensor  
+- **Software:** Embedded C  
+- **IoT:** Cloud platform (Blynk / Firebase / MQTT etc.)
+
+---
+
+## 📂 Description
+This project integrates multiple sensors to monitor infant activity and send alerts to caregivers. The system can automatically rock the cradle when the baby cries or moves.
+
+---
